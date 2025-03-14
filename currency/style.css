@@ -1,0 +1,98 @@
+/* General body styling */
+body {
+   font-family: Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   background-color: #dccfcf;
+}
+
+/* Currency converter container */
+.container {
+   text-align: center;
+   background: rgb(110, 212, 131);
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(159, 239, 229, 0.2);
+}
+
+/* Input and button styling */
+input {
+   width: 300px;
+   padding: 10px;
+   margin: 10px 0;
+   border: 1px solid #8053f2;
+   border-radius: 5px;
+}
+
+button {
+   padding: 12px;
+   background-color: #0f66c2;
+   color: white; /* text color*/
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin: 5px;
+}
+
+button:hover {
+   background-color: #0056b3;
+   
+}
+/* Reset button styling */
+#reset {
+   background-color: #e74c3c;
+}
+#reset:hover {
+   background-color: #c0392b;
+}
+
+
+/* Styling for the result */
+#result {
+   margin-top: 15px;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+/* Message container styling */
+.msg-container {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   background-color: rgb(216, 115, 115);
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   display: none; /* Initially hidden */
+   color: white;
+}
+
+/* Show the message container when not hidden */
+.msg-container.show {
+   display: block;
+}
+
+/* Hide class (if needed for JS toggling) */
+.hide {
+   display: none;
+}
+/*box styling*/
+.box {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between; /* Pushes content apart */
+   background: rgb(227, 129, 240);
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   width: 450px; /* Set a fixed width */
+   height:250px; /* Set a fixed height to ensure button stays at bottom */
+}
+
+
